@@ -255,6 +255,9 @@ int go() {
 			break;//w
 
 		case 115:
+			if (y == 20) {
+				break;
+			}
 			switch (bonus_chance) {
 			case 1://with bonus
 
