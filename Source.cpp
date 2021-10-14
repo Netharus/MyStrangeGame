@@ -162,23 +162,23 @@ int go() {
 			}
 			
 			switch (bonus_chance) {
-			case 1://есть бонус не на линии
+			case 1://with bonus
 
 					system("cls");
 
 					x--;
 					movement(x,y,x_bonus,y_bonus,&score,&count_bonus);
 
-				break;//есть бонус не на линии
+				break;//with bonus
 
-			case 2://бонуса нет
+			case 2://without bonus
 
 					system("cls");
 
 					x--;
 
 					movement_null(x, y,score);
-				break;//бонуса нет
+				break;//without bonus
 			default:;
 				break;
 			}
@@ -192,7 +192,7 @@ int go() {
 			}
 
 			switch (bonus_chance) {
-			case 1://есть бонус не на линии
+			case 1://with bonus
 
 				system("cls");
 
@@ -202,9 +202,9 @@ int go() {
 
 
 
-				break;//есть бонус не на линии
+				break;//with bonus
 
-			case 2://бонуса нет
+			case 2://without bonus
 
 				system("cls");
 
@@ -212,7 +212,7 @@ int go() {
 
 				movement_null(x, y,score);
 
-				break;//бонуса нет
+				break;//without bonus
 			default:;
 				break;
 			}
@@ -226,7 +226,7 @@ int go() {
 			}
 
 			switch (bonus_chance) {
-			case 1://есть бонус не на линии
+			case 1://with bonus
 
 				system("cls");
 
@@ -236,10 +236,10 @@ int go() {
 				
 
 
-				break;//есть бонус не на линии
+				break;//with bonus
 
 
-			case 2://бонуса нет
+			case 2://without bonus
 
 				system("cls");
 
@@ -247,7 +247,7 @@ int go() {
 
 				movement_null(x, y,score);
 
-				break;//бонуса нет
+				break;//without bonus
 			default:;
 				break;
 			}
@@ -256,7 +256,7 @@ int go() {
 
 		case 115:
 			switch (bonus_chance) {
-			case 1://есть бонус не на линии
+			case 1://with bonus
 
 				system("cls");
 
@@ -266,9 +266,9 @@ int go() {
 
 
 
-				break;//есть бонус не на линии
+				break;//with bonus
 
-			case 2://бонуса нет
+			case 2://without bonus
 
 				system("cls");
 
@@ -276,7 +276,7 @@ int go() {
 
 				movement_null(x, y,score);
 
-				break;//бонуса нет
+				break;//without bonus
 			default:;
 				break;
 			}
