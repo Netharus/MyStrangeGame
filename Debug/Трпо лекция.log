@@ -1,4 +1,7 @@
 ﻿  Source.cpp
-C:\Users\nekro\source\repos\Трпо лекция\Трпо лекция\Source.cpp(119,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\nekro\source\repos\Трпо лекция\Трпо лекция\Source.cpp(122,14): warning C4101: bonus_chance: неиспользованная локальная переменная
+C:\Users\nekro\source\repos\Трпо лекция\Трпо лекция\Source.cpp(96,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\nekro\source\repos\Трпо лекция\Трпо лекция\Source.cpp(99,54): warning C4101: x_enemy: неиспользованная локальная переменная
+C:\Users\nekro\source\repos\Трпо лекция\Трпо лекция\Source.cpp(99,62): warning C4101: y_enemy: неиспользованная локальная переменная
+C:\Users\nekro\source\repos\Трпо лекция\Трпо лекция\Source.cpp(99,70): warning C4101: count_enemy: неиспользованная локальная переменная
+C:\Users\nekro\source\repos\Трпо лекция\Трпо лекция\Source.cpp(201): warning C4715: go: значение возвращается не при всех путях выполнения
   Трпо лекция.vcxproj -> C:\Users\nekro\source\repos\Трпо лекция\Debug\Трпо лекция.exe
